@@ -25,7 +25,7 @@ export const SPONSORS = [
     {
       icon: "uptime",
       title: "99.99% uptime",
-      description: "For Landwind, with zero maintenance downtime",
+      description: "For Ielts4Prep, with zero maintenance downtime",
     },
     {
       icon: "user",
@@ -35,7 +35,7 @@ export const SPONSORS = [
     {
       icon: "countries",
       title: "100+ countries",
-      description: "Have used Landwind to create functional websites",
+      description: "Have used Ielts4Prep to create functional websites",
     },
     {
       icon: "shopcart",
@@ -86,20 +86,20 @@ export const SPONSORS = [
 
   export const FAQS = [
     {
-        title: 'Can I use Landwind in open-source projects?',
-        description: ['Landwind is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more','Check out this guide to learn how to get started and start developing websites even faster with components on top of Tailwind CSS.']
+        title: 'Can I use Ielts4Prep in open-source projects?',
+        description: ['Ielts4Prep is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more','Check out this guide to learn how to get started and start developing websites even faster with components on top of Tailwind CSS.']
     },
     {
         title: 'Is there a Figma file available?',
-        description: ['Landwind is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more','Check out this guide to learn how to get started and start developing websites even faster with components on top of Tailwind CSS.']
+        description: ['Ielts4Prep is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more','Check out this guide to learn how to get started and start developing websites even faster with components on top of Tailwind CSS.']
     },
     {
-        title: 'What are the differences between Landwind and Tailwind UI?',
-        description: ['Landwind is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more','Check out this guide to learn how to get started and start developing websites even faster with components on top of Tailwind CSS.']
+        title: 'What are the differences between Ielts4Prep and Tailwind UI?',
+        description: ['Ielts4Prep is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more','Check out this guide to learn how to get started and start developing websites even faster with components on top of Tailwind CSS.']
     },
     {
         title: 'What about browser support?',
-        description: ['Landwind is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more','Check out this guide to learn how to get started and start developing websites even faster with components on top of Tailwind CSS.']
+        description: ['Ielts4Prep is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more','Check out this guide to learn how to get started and start developing websites even faster with components on top of Tailwind CSS.']
     }
   ]
 
@@ -206,3 +206,6 @@ export const SPONSORS = [
         ]
     },
   ]
+
+
+  export const LOGO_CONTENTS = ['facebook','instagram', 'twitter','ball']

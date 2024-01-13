@@ -88,7 +88,7 @@ export default function Home() {
                     {/* <!-- Icon --> */}
                     <Icon
                       size={20}
-                      className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+                      className="flex-shrink-0 w-5 h-5 text-gray-500 dark:text-gray-400"
                       name="ticked"
                     />
                     <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
@@ -134,7 +134,7 @@ export default function Home() {
                     {/* <!-- Icon --> */}
                     <Icon
                       size={20}
-                      className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+                      className="flex-shrink-0 w-5 h-5 text-gray-500 dark:text-gray-400"
                       name="ticked"
                     />
                     <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
@@ -157,7 +157,7 @@ export default function Home() {
       <section className="bg-white dark:bg-gray-900">
         <div className="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
           <div className="col-span-2 mb-8">
-            <p className="text-lg font-medium text-purple-600 dark:text-purple-500">
+            <p className="text-lg font-medium text-gray-600 dark:text-gray-500">
               Trusted Worldwide
             </p>
             <h2 className="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">
@@ -171,7 +171,7 @@ export default function Home() {
               <div>
                 <Link
                   href="#"
-                  className="inline-flex items-center text-base font-medium text-purple-600 hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-700"
+                  className="inline-flex items-center text-base font-medium text-gray-600 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-700"
                 >
                   Explore Legality Guide
                   <Icon name="right" size={20} className="w-5 h-5 ml-1"></Icon>
@@ -180,7 +180,7 @@ export default function Home() {
               <div>
                 <Link
                   href="#"
-                  className="inline-flex items-center text-base font-medium text-purple-600 hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-700"
+                  className="inline-flex items-center text-base font-medium text-gray-600 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-700"
                 >
                   Visit the Trust Center
                   <Icon name="right" size={20} className="w-5 h-5 ml-1"></Icon>
@@ -193,7 +193,7 @@ export default function Home() {
               <div key={data.title}>
                 <Icon
                   name={data.icon}
-                  className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
+                  className="w-10 h-10 mb-2 text-gray-600 md:w-12 md:h-12 dark:text-gray-500"
                   size={20}
                 />
                 <h3 className="mb-2 text-2xl font-bold dark:text-white">
@@ -219,7 +219,7 @@ export default function Home() {
             />
             <blockquote>
               <p className="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">
-                "Landwind is just awesome. It contains tons of predesigned
+                "Ielts4Prep is just awesome. It contains tons of predesigned
                 components and pages starting from login screen to complex
                 dashboard. Perfect choice for your next SaaS application."
               </p>
@@ -253,7 +253,7 @@ export default function Home() {
               Designed for business teams like yours
             </h2>
             <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
-              Here at Landwind we focus on markets where technology, innovation,
+              Here at Ielts4Prep we focus on markets where technology, innovation,
               and capital can unlock long-term value and drive economic growth.
             </p>
           </div>
@@ -292,8 +292,8 @@ export default function Home() {
         <div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
             <div className="max-w-screen-sm mx-auto text-center">
                 <h2 className="mb-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white">Start your free trial today</h2>
-                <p className="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">Try Landwind Platform for 30 days. No credit card required.</p>
-                <Link href="#" className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Free trial for 30 days</Link>
+                <p className="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">Try Ielts4Prep Platform for 30 days. No credit card required.</p>
+                <Link href="#" className="text-white bg-gray-700 hover:bg-gray-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-600 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Free trial for 30 days</Link>
             </div>
         </div>
     </section>
