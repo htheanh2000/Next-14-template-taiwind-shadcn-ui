@@ -1,12 +1,13 @@
 import React from "react";
 import Image from "next/image";
-interface ImageProps {
+interface ImageProps extends React.RefAttributes<HTMLImageElement | null>{
   src: string;
   alt?: string;
   className?: string;
   layout?: "fixed" | "intrinsic" | "responsive" | undefined;
   width?: number;
   height?: number;
+  loading?: "lazy" | "eager" | undefined;
 }
 
 const NextImage: React.FC<ImageProps> = ({
